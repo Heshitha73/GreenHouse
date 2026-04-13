@@ -5,11 +5,10 @@ An intelligent greenhouse monitoring and control system built with ESP32, DHT11 
 
 🔧 What It Does
 This system continuously reads environmental data and automatically controls actuators to maintain ideal growing conditions:
-      Condition                                    Action
-Soil moisture too dry (>3500)          💧 Water pump activates for 3 seconds
-Temperature too high (>35°C)           🌀 Cooling fan turns ON
-Temperature too low (<31°C)            💡 Heating bulb turns ON
-Temperature normal                     ✅ All actuators OFF
+--When soil moisture too dry (>3500) 💧 Water pump activates for 3 seconds.
+--When temperature too high (>35°C) 🌀 Cooling fan turns ON
+--When temperature too low (<31°C) 💡 Heating bulb turns ON
+--When temperature normal ✅ All actuators OFF
 
 ---
 
