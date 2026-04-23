@@ -30,6 +30,3 @@ Connectivity: Wi-Fi (ESP32 built-in)
 
 ---
 
-## ⚠️ Security Note
-
-Before pushing to GitHub, make sure to remove or hide your Wi-Fi credentials and Blynk Auth Token — store them in a separate config file or use environment variables.
